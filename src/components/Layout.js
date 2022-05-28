@@ -13,7 +13,6 @@ const Layout = (props) => {
         if(value === '='){
             if(input !== ''){
                 let res = '';
-
                 try {
                     res = eval(input)
                 } catch(err) {
@@ -37,6 +36,9 @@ const Layout = (props) => {
             let str = input
             str = str.substr(0, str.length-1)
             setInput(str);
+            if(str === ""){
+                setInput('0');
+            }
         }
         else if(input === '0'){
             setInput(value)
@@ -51,7 +53,7 @@ const Layout = (props) => {
             <div className='calculator'>
                 <br></br>
                 <Output user={input} answer={result}/>
-                <img src={logo} width='150px' style={{display: 'block', marginLeft: 'auto',marginRight: 'auto'}}/>
+                <img src={logo} width='150px' alt="simplilearn" style={{display: 'block', marginLeft: 'auto',marginRight: 'auto'}}/>
                 <div className="keys">
                     <input type="button" value={'C'} className="button clear" onClick={handleClick}></input>
                     <input type="button" value={'DEL'} className="button clear" onClick={handleClick}></input>

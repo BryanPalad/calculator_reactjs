@@ -13,7 +13,10 @@
   }
 }
 body {
-  background-image: url('../public/calculator.webp');
+  background-image: url('../public/calculator.webp'); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
 }
 .App-header {
   background-color: #282c34;
