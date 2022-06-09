@@ -20,3 +20,24 @@
     padding-top: 10px;
     padding-bottom: 20px;
 }
+@media screen and (max-width: 430px) {
+    .screen {
+        width: 88%;
+    }
+}
+@media screen and (max-width: 379px) {
+    .screen {
+        width: 86%;
+        font-size: 3rem;
+    }
+}
+@media screen and (max-width: 351px) {
+    .screen {
+        width: 84%;
+    }
+}
+@media screen and (max-width: 325px) {
+    .screen {
+        width: 82%;
+    }
+}
