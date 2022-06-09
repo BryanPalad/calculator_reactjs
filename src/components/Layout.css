@@ -57,3 +57,40 @@
 .equal-sign:hover {
     background-color: #4e9ed4;
 }
+
+@media screen and (max-width: 430px) {
+    .calculator {
+        width: 350px;
+        height: 520px;
+    }
+    .button {
+        height: 50px;
+    }
+}
+@media screen and (max-width: 379px) {
+    .calculator {
+        width: 330px;
+        height: 500px;
+    }
+    .button {
+        height: 50px;
+    }
+}
+@media screen and (max-width: 351px) {
+    .calculator {
+        width: 310px;
+        height: 480px;
+    }
+    .button {
+        height: 47px;
+    }
+}
+@media screen and (max-width: 325px) {
+    .calculator {
+        width: 290px;
+        height: 480px;
+    }
+    .button {
+        height: 47px;
+    }
+}
