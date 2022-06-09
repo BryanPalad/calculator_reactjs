@@ -53,7 +53,7 @@ const Layout = (props) => {
             <div className='calculator'>
                 <br></br>
                 <Output user={input} answer={result}/>
-                <img src={logo} width='150px' alt="simplilearn" style={{display: 'block', marginLeft: 'auto',marginRight: 'auto'}}/>
+                <img src={logo} width='150px' alt="simplilearn" className='logo' style={{display: 'block', marginLeft: 'auto',marginRight: 'auto'}}/>
                 <div className="keys">
                     <input type="button" value={'C'} className="button clear" onClick={handleClick}></input>
                     <input type="button" value={'DEL'} className="button clear" onClick={handleClick}></input>

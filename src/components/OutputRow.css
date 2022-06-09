@@ -23,6 +23,7 @@
 @media screen and (max-width: 430px) {
     .screen {
         width: 88%;
+        height:40px;
     }
 }
 @media screen and (max-width: 379px) {

@@ -63,6 +63,9 @@
         width: 350px;
         height: 520px;
     }
+    .calculator .logo {
+        display: none !important;
+    }
     .button {
         height: 50px;
     }
