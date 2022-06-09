@@ -7,7 +7,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     width: 400px;
-    height: 560px;
+    height: 580px;
 }
 .keys {
     display: grid;
@@ -61,31 +61,22 @@
 @media screen and (max-width: 430px) {
     .calculator {
         width: 350px;
-        height: 520px;
+        height: 550px;
     }
     .calculator .logo {
         display: none !important;
-    }
-    .button {
-        height: 50px;
     }
 }
 @media screen and (max-width: 379px) {
     .calculator {
         width: 330px;
-        height: 500px;
-    }
-    .button {
-        height: 50px;
+        height: 550px;
     }
 }
 @media screen and (max-width: 351px) {
     .calculator {
         width: 310px;
-        height: 480px;
-    }
-    .button {
-        height: 47px;
+        height: 550px;
     }
 }
 @media screen and (max-width: 325px) {
