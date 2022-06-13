@@ -10,7 +10,7 @@
     margin-right: auto;
     width: 90%;
     font-size: 3.5rem;
-    height: 30px;
+    height: auto;
     border: none;
     background-color: transparent;
     color: black;
@@ -19,6 +19,7 @@
     padding-left: 10px;
     padding-top: 20px;
     padding-bottom: 20px;
+    overflow: hidden;
 }
 @media screen and (max-width: 430px) {
     .screen {
