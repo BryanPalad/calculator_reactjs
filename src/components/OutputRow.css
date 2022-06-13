@@ -1,6 +1,9 @@
 @font-face {
     font-family: 'digital-7';
     src: url(../assets/font/Digital-7.ttf);
+    src: url(../assets/font/Digital-7.svg);
+    src: url(../assets/font/Digital-7.eot);
+    src: url(../assets/font/Digital-7.woff);
 }
 
 .screen {
