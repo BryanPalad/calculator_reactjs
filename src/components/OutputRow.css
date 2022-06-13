@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'digital-7';
-    src: url(../assets/fonts/digital-7.ttf);
+    src: url(../assets/font/Digital-7.ttf);
 }
 
 .screen {
@@ -18,7 +18,7 @@
     padding-right: 20px;
     padding-left: 10px;
     padding-top: 20px;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
     justify-content: center;
     align-items: center;
 }
